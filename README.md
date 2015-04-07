@@ -7,7 +7,7 @@
 # 效果
 有 `直接黑边` 与 `画条纹`两种效果。颜色默认是灰色，可以自定义。
 ## 画条纹效果（便于区分群聊用户，同时又能隐藏用户）
-![画条纹效果处理后](https://raw.githubusercontent.com/Anye/blur-avatar/master/before/Anye/1/Screenshot_2015-04-07-22-05-59.png)
+![画条纹效果处理后](https://raw.githubusercontent.com/Anye/blur-avatar/master/result/Anye/1/Screenshot_2015-04-07-22-05-59.png)
 处理前的样子：
 ![画条纹效果处理前](https://raw.githubusercontent.com/Anye/blur-avatar/master/before/Anye/1/Screenshot_2015-04-07-22-05-59.png)
 
