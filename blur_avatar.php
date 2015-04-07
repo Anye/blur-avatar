@@ -111,8 +111,8 @@ function process_a_file($filename, $savename)
 		imagecopyresized($d_image, $s_image, 0, 0, 0, 0, $d_width, $d_height, $s_width, $s_height);	// resize
 
 		$d_image = draw_streak($d_image, 0, 130, 'h', $fill_color, 2);	// 给上边联系人名称加上条纹
-		$d_image = draw_streak($d_image, 0, $avatar_width);	// 给左边联系人加上条纹
-		$d_image = draw_streak($d_image, $d_width-$avatar_width, $d_width);	// 给右边联系人加上条纹
+		$d_image = draw_streak($d_image, 0, $avatar_width, 'v', $fill_color);	// 给左边联系人加上条纹
+		$d_image = draw_streak($d_image, $d_width-$avatar_width, $d_width, 'v', $fill_color);	// 给右边联系人加上条纹
 
 		switch ($ext) {
 			case 'png':
